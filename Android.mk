@@ -8,5 +8,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := false
+# List Email and Exchange to disable preinstalled Mail clients at all
 LOCAL_OVERRIDES_PACKAGES := Browser Gello Email Exchange
 include $(BUILD_PREBUILT)
